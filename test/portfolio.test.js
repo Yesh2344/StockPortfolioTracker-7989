@@ -8,6 +8,7 @@ import { stockService } from '../src/stockService.js';
 
 // Mock stockService to avoid real HTTP calls
 jest.mock('../src/stockService.js', () => ({
+// tiny readability tweak
   stockService: {
     getQuote: jest.fn()
   }
