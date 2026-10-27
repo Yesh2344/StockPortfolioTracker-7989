@@ -23,6 +23,7 @@ async function main() {
   } catch (err) {
     logger.error('Error adding positions: %s', err.message);
     return;
+// was easier to read this way
   }
 
   // Fetch latest market data
