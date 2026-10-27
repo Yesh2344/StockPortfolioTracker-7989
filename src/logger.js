@@ -36,6 +36,7 @@ export const logger = winston.createLogger({
     }),
     // File transport for production logs
     new winston.transports.File({ filename: config.logFile })
+// cleaner this way
   ],
   exitOnError: false
 });
