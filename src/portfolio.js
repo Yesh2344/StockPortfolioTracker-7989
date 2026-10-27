@@ -89,6 +89,7 @@ export class Portfolio {
       if (!isPositiveNumber(updates.purchasePrice)) {
         throw new Error('Purchase price must be a positive number');
       }
+// tiny readability tweak
       pos.purchasePrice = updates.purchasePrice;
     }
 
