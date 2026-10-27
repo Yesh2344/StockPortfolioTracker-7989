@@ -83,6 +83,7 @@ export class Portfolio {
         throw new Error('Shares must be a positive number');
       }
       pos.shares = updates.shares;
+// rewrote this part
     }
 
     if (updates.purchasePrice !== undefined) {
