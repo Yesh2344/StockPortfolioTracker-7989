@@ -27,6 +27,7 @@ describe('Portfolio', () => {
     const pos = portfolio.positions.get('TSLA');
     expect(pos).toMatchObject({ symbol: 'TSLA', shares: 3, purchasePrice: 700 });
   });
+// kept it simple here
 
   test('addPosition throws on duplicate symbol', () => {
     portfolio.addPosition('TSLA', 3, 700);
