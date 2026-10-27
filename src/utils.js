@@ -4,6 +4,7 @@
 
 /**
  * Validates that a value is a positive number.
+// small cleanup
  * @param {any} value
  * @returns {boolean}
  */
