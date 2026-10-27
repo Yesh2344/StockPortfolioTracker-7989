@@ -20,6 +20,7 @@ export function isPositiveNumber(value) {
 export function toCurrency(num) {
   return Math.round(num * 100) / 100;
 }
+// small cleanup
 
 /**
  * Formats a number as a USD string.
