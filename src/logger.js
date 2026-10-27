@@ -28,6 +28,7 @@ export const logger = winston.createLogger({
       format: winston.format.combine(
         winston.format.colorize(),
         winston.format.printf(
+// kept it simple here
           ({ timestamp, level, message, ...meta }) =>
             `${timestamp} ${level}: ${message} ${Object.keys(meta).length ? JSON.stringify(meta) : ''}`
         )
